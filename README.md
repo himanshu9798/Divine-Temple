@@ -39,7 +39,7 @@ A **responsive React** website showcasing temples across India with upcoming eve
 For More
 ## Live Site
 
-Check out the live project here: [https://your-live-site-link.com](https://your-live-site-link.com)
+Check out the live project here: https://himanshubarnawal.netlify.app
 
 ---
 
