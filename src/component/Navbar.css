@@ -1,0 +1,106 @@
+/* Navbar.css */
+
+body {
+  margin: 0;
+  font-family: 'Georgia', serif;
+  background-color: #fffdf5;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: column;
+background: #faf4e3 url('https://www.transparenttextures.com/patterns/arches.png') repeat;
+
+  padding: 10px 20px;
+  border-bottom: 2px solid #d9a760;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-logo {
+  height: 80px;
+  margin-right: 10px;
+  animation: spin 2s linear infinite;
+}
+
+
+
+.navbar-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #a85b2b;
+  flex-grow: 1;
+}
+
+.navbar-toggle {
+  background: none;
+  border: none;
+  font-size: 1.8rem;
+  cursor: pointer;
+  color: #a85b2b;
+  display: none;
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-link {
+  text-decoration: none;
+  color: #5e3d17;
+  padding: 10px 15px;
+  transition: background-color 0.3s;
+}
+
+.navbar-link:hover {
+  background-color: #f7e0b8;
+  border-radius: 5px;
+}
+
+.donate-btn {
+  background-color: #d95f18;
+  color: white;
+  border-radius: 4px;
+  padding: 10px 15px;
+}
+
+.donate-btn:hover {
+  background-color: #c04e0f;
+}
+.active-link {
+  background-color: #f7e0b8; /* same as hover */
+  border-radius: 5px;
+}
+
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  .navbar-links {
+    flex-direction: column;
+    display: none;
+    width: 100%;
+    text-align: left;
+  }
+
+  .navbar-links.active {
+    display: flex;
+    margin-top: 10px;
+  }
+
+  .navbar-toggle {
+    display: block;
+  }
+
+  .navbar-link {
+    padding: 12px 10px;
+    border-top: 1px solid #e6c8b2;
+  }
+}

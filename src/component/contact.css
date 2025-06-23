@@ -1,0 +1,246 @@
+/* Font Import */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+Devanagari&display=swap");
+
+/* Base Styles */
+.contact-wrapper {
+  min-height: 100vh;
+  background: #fbe9d0
+    url("https://www.transparenttextures.com/patterns/brick-wall.png") repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+  font-family: Arial, sans-serif;
+  color: #333;
+  position: relative;
+  z-index: 1;
+}
+
+/* Moving Mantras */
+.moving-mantras {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.moving-mantras span {
+  position: absolute;
+  white-space: nowrap;
+  color: #a86e3b;
+  font-size: 1.5rem;
+  opacity: 0.4;
+  animation: mantraMove 25s linear infinite;
+  font-family: "Noto Serif Devanagari", serif;
+  text-shadow: 0 0 5px rgba(184, 159, 126, 0.5);
+  text-shadow: 0 0 4px white, 0 0 8px white, 0 0 12px white, 0 0 18px white;
+}
+.moving-mantras span:nth-child(1) {
+  top: 5%;
+  left: -100%;
+  animation-delay: 0s;
+}
+.moving-mantras span:nth-child(2) {
+  top: 10%;
+  left: -150%;
+  animation-delay: 3s;
+}
+.moving-mantras span:nth-child(3) {
+  top: 15%;
+  left: -80%;
+  animation-delay: 6s;
+}
+.moving-mantras span:nth-child(4) {
+  top: 20%;
+  left: -200%;
+  animation-delay: 9s;
+}
+.moving-mantras span:nth-child(5) {
+  top: 25%;
+  left: -130%;
+  animation-delay: 12s;
+}
+.moving-mantras span:nth-child(6) {
+  top: 30%;
+  left: -170%;
+  animation-delay: 15s;
+}
+.moving-mantras span:nth-child(7) {
+  top: 35%;
+  left: -90%;
+  animation-delay: 18s;
+}
+.moving-mantras span:nth-child(8) {
+  top: 40%;
+  left: -160%;
+  animation-delay: 21s;
+}
+.moving-mantras span:nth-child(9) {
+  top: 45%;
+  left: -110%;
+  animation-delay: 24s;
+}
+.moving-mantras span:nth-child(10) {
+  top: 50%;
+  left: -190%;
+  animation-delay: 27s;
+}
+.moving-mantras span:nth-child(11) {
+  top: 55%;
+  left: -140%;
+  animation-delay: 30s;
+}
+.moving-mantras span:nth-child(12) {
+  top: 60%;
+  left: -100%;
+  animation-delay: 33s;
+}
+.moving-mantras span:nth-child(13) {
+  top: 65%;
+  left: -180%;
+  animation-delay: 36s;
+}
+.moving-mantras span:nth-child(14) {
+  top: 70%;
+  left: -120%;
+  animation-delay: 39s;
+}
+.moving-mantras span:nth-child(15) {
+  top: 75%;
+  left: -200%;
+  animation-delay: 42s;
+}
+.moving-mantras span:nth-child(16) {
+  top: 80%;
+  left: -150%;
+  animation-delay: 45s;
+}
+.moving-mantras span:nth-child(17) {
+  top: 85%;
+  left: -170%;
+  animation-delay: 48s;
+}
+.moving-mantras span:nth-child(18) {
+  top: 90%;
+  left: -130%;
+  animation-delay: 51s;
+}
+.moving-mantras span:nth-child(19) {
+  top: 95%;
+  left: -110%;
+  animation-delay: 54s;
+}
+.moving-mantras span:nth-child(20) {
+  top: 98%;
+  left: -190%;
+  animation-delay: 57s;
+}
+
+@keyframes mantraMove {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(200vw);
+  }
+}
+
+.mantra {
+  color: #b89f7e;
+  font-weight: 600;
+  font-family: "Noto Serif Devanagari", serif;
+  line-height: 1.4;
+}
+
+.mantra-top {
+  font-size: 1.3rem;
+  margin-bottom: 15px;
+  text-align: center;
+  background: linear-gradient(90deg, #b89f7e, #d4b186, #b89f7e);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  -webkit-text-fill-color: transparent;
+  position: relative;
+  z-index: 2;
+}
+
+/* Contact Form */
+.content-area {
+  display: flex;
+  width: 100%;
+  max-width: 900px;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+}
+
+.contact-container {
+  background: #f3e8dc
+    url("https://www.transparenttextures.com/patterns/arabesque.png") repeat;
+  padding: 2rem 2.5rem;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  z-index: 2;
+  border: 6px solid #a56c33;
+}
+
+.contact-container h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #a56c33;
+  font-weight: 800;
+}
+
+.contact-container label {
+  display: block;
+  margin-bottom: 1rem;
+  color: #444;
+  font-weight: 800;
+  font-size: 1rem;
+}
+
+.contact-container input,
+.contact-container textarea {
+  width: 100%;
+  padding: 0.6rem;
+  margin-top: 0.3rem;
+  border: none;
+  color: #333;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 6px;
+  font-size: 1rem;
+  resize: vertical;
+  font-family: inherit;
+}
+
+.contact-container input::placeholder,
+.contact-container textarea::placeholder {
+  color: #b89f7e;
+}
+
+.contact-container button {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #d27e3a;
+  color: white;
+  font-weight: 700;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1.1rem;
+  margin-top: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.contact-container button:hover {
+  background-color: #b3662c;
+}

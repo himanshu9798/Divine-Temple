@@ -1,0 +1,66 @@
+/* Footer Section 
+/* Footer.css */
+
+.footer {
+  background: #faf4e3 url('https://www.transparenttextures.com/patterns/tapestry.png') repeat;
+  color: #5e3d17;
+  padding: 40px 20px 20px;
+  font-family: 'Georgia', serif;
+  border-top: 3px solid #d9a760;
+}
+
+.footer-top {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.footer-section {
+  flex: 1 1 220px;
+  margin: 10px;
+}
+
+.footer-section h3,
+.footer-section h4 {
+  color: #a85b2b;
+  margin-bottom: 10px;
+}
+
+.footer-section p,
+.footer-section a {
+  font-size: 14px;
+  color: #5e3d17;
+  text-decoration: none;
+  line-height: 1.6;
+}
+
+.footer-section a:hover {
+  text-decoration: underline;
+  color: #d95f18;
+}
+
+.social-icons a {
+  margin-right: 10px;
+  font-size: 20px;
+  color: #a85b2b;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #d95f18;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding-top: 15px;
+  font-size: 13px;
+  border-top: 1px solid #e0c6b0;
+}
+
+@media (max-width: 768px) {
+  .footer-top {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

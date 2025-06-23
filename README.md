@@ -1,65 +1,70 @@
-# Divine-Temple
+# Getting Started with Create React App
 
-A **responsive React** website showcasing temples across India with upcoming events, past events, and live streaming of religious ceremonies. The site also includes donation functionality and contact information.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
----
+## Available Scripts
 
-## Features
+In the project directory, you can run:
 
-- **Live Streaming Events:** Watch live temple events with thumbnail preview and click-to-play video.
-- **Upcoming & Past Events:** Browse detailed cards with images, dates, and locations.
-- **Past Recordings:** View recordings of previous events with video playback.
-- **Responsive Design:** Fully responsive UI for desktops, tablets, and mobile devices.
-- **Donation Page:** Integrated donation page to support temple activities.
-- **Contact Page:** Easily reach out with queries or feedback.
+### `npm start`
 
----
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-## Demo
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-![Homepage Screenshot]
-![image](https://github.com/user-attachments/assets/d4ef2f57-4fad-4c91-981e-c460a19d98ca)
-![image](https://github.com/user-attachments/assets/4cd9f413-334c-4b22-891b-aceffa497bf5)
+### `npm test`
 
-![Events Page Screenshot]
-![image](https://github.com/user-attachments/assets/ee54d67d-0c10-46aa-b508-9eddf0782dbe)
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
+### `npm run build`
 
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-![About Page Screenshot]
-![image](https://github.com/user-attachments/assets/bb35d52e-25e4-4699-a248-d231416eea93)
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
+### `npm run eject`
 
-![Contact Page Screenshot]
-![image](https://github.com/user-attachments/assets/9d6e4313-8688-4e07-bd77-30638671e9e4)
-![Donate Page Screenshot]
-![image](https://github.com/user-attachments/assets/ffec2b38-d035-4338-a815-e39e3f0c8c96)
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-For More
-## Live Site
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Check out the live project here: https://himanshubarnawal.netlify.app
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
----
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Installation & Usage
+## Learn More
 
-1. Clone the repo:  
-   ```bash
-   git clone https://github.com/yourusername/Divine-Temple.git
-# Divine-Temple
-“Responsive React website for showcasing Indian temple events, live streams, past recordings, and donations with cultural design.”
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-cd Divine-Temple
-npm install
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-npm start
-Technologies Used
-React.js
+### Code Splitting
 
-CSS (inline styles & custom)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-HTML5 & JavaScript
+### Analyzing the Bundle Size
 
-Video embedding via iframe
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

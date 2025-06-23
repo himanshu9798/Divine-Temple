@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background: #f8e9d1 url('https://www.transparenttextures.com/patterns/diamond-upholstery.png') repeat;
+
+
+
+}
+.homepage{
+   background: #f3e8dc url('https://www.transparenttextures.com/patterns/arabesque.png') repeat;
+}
+
+.header {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.header h1 {
+  font-size: 3rem;
+  color: #333;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.navbar a {
+  color: #333;
+  text-decoration: none;
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  transition: all 0.3s ease;
+}
+
+.navbar a:hover {
+  color: #fff;
+  background: #2575fc;
+  border-radius: 5px;
+}
+
+
+.temple-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 30px;
+  padding: 30px;
+}
+
+.temple-card {
+  background: linear-gradient(135deg, #00c6ff, #0072ff);
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.temple-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 50px rgba(0, 0, 0, 0.2);
+}
+
+.temple-card img {
+  width: 100%;
+  height: 200px;
+  border-radius: 8px;
+}
+
+.temple-card h3 {
+  margin-top: 20px;
+  font-size: 1.8rem;
+  color: #fff;
+}
+
+.temple-card p {
+  font-size: 1rem;
+  color: #f0f0f0;
+}
+
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+  }
+
+  .temple-cards {
+    grid-template-columns: 1fr;
+  }
+}
